@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    background-color: #F5C6AA;
+}
+
+#title{
+    font-family: "Arvo",cursive;
+    color:#887490 ;
+    text-shadow: 3px 0 #6a5572;
+    font-size: 4rem;
+}
+
+p{
+    font-family: cursive;
+    font-size: 1.8rem;
+    color: #7d3f96;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    gap: 2.5rem;
+    margin: 150px auto;
+    flex-wrap: wrap;
+}
+
+.drum{
+    width: 130px;
+    height: 130px;
+    border: 5px solid #c15621;
+    border-radius: 10%;
+}
+
+#w{
+    background-image: url(img/rack\ tom.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#a{
+    background-image: url(img/floor\ tom.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#s{
+    background-image: url(img/snare.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#d{
+    background-image: url(img/bass\ drum.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#j{
+    background-image: url(img/hi\ hat.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#k{
+    background-image: url(img/crash.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#l{
+    background-image: url(img/kick_bass.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.pressed{
+    border: 5px solid black;
+    opacity: 0.1;
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+}
+
